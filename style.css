@@ -1,0 +1,225 @@
+body{
+    font-family: Arial, sans-serif;
+    display: flex; /* Make the body a flex container */
+    flex-direction: column; /* Arrange items in a column */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default margin */
+    background-color: #EFEFF2;
+    color: #19191C;
+    margin: 0 auto;
+    
+    font: 400 18px/28px Inter, sens-serif;
+}
+
+.container{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 36px 0 0;
+}
+.header_box{
+    display: flex;
+    align-items: center;
+    gap: 68px;
+}
+
+.nav_list{
+display: flex;
+list-style: none;
+gap: 48px;
+margin: 0;
+padding: 0;
+font-size: 18px;
+line-height: 22px;
+font-weight: 600;
+
+}
+.btn_box{
+    display: flex;
+    gap: 48px;
+}
+
+.header_logo{
+    font: 800 24px Inter, sens-serif;
+    color: #19191C;
+    line-height: 30px;
+    display: flex;
+    gap: 14px;
+    text-decoration: none;
+    align-items: center;    
+}
+
+.header_text{
+    color: #19191C;
+    text-decoration: none;    
+}
+
+.header_button{
+    display: flex;
+    gap: 48px;
+    text-decoration: none;
+    align-items: center;
+    color: #EFEFF2;
+    background-color: #19191C;
+    padding: 12px 37px;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+    
+}
+.header_text{
+    display: flex;
+    gap: 46px;
+    text-decoration: none;
+    align-items: center;
+    color: #19191C;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+}
+
+.offer{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.offer_block{
+    width: 648px;
+    margin-top: 249px;
+}
+.offer_title{
+    color: #19191C;
+    font-size: 58px;
+    line-height: 70px;
+    font-weight: 700;
+}
+.offer_date{
+    color: #19191C;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+}
+.profession{
+    color: #19191C;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 400;
+    padding-top: 62px;
+}
+.offer_title{
+    color: #19191C;
+    font-size: 58px;
+    line-height: 70px;
+    font-weight: 600; 
+    margin-top: 2px;
+}
+.offer_description{
+    color: #19191C;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 400;
+    
+}
+.button_proffesion{
+    display: flex;
+    margin-top: 50px;
+    gap: 10px;
+    align-items: center;
+    color: #FBFBFC;
+    background-color: #504DEE;
+    padding: 16px 37px;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+    border: none;
+}
+.offer_sale{
+    color: #19191C;
+    font-size: 58px;
+    line-height: 70px;
+    font-weight: 700;
+    margin-top: 110px;
+    margin-bottom: 8px;
+}
+.offer_time{
+    color: #19191C;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+      
+}
+.offer_list{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 248px;
+    
+}
+.list{
+   list-style: none;
+   color: #19191C;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+    
+}
+.InVision{
+    align-items: center;
+    display: flex;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+    margin: 66px 240px 0px 0px;
+    border: 2px solid #666;
+}
+.ProtoPie{
+    
+    border: 2px solid #666;
+    /* Padding: 16px, 36px, 16px, 36px; */
+    align-items: center;
+    display: flex;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+    margin: 0px 463px 0px 0px;
+}
+.footer{
+    background-color: #19191C;
+    display: flex;
+
+}
+.Copyright{
+    background-color: #19191C;
+    color: #6D6D77;
+    text-align: center;
+    display: inline-block;
+    
+      
+}
+
+.info_list{
+    list-style-type: none;
+}
+.footer_info{
+    background-color: chartreuse;
+    
+}
+.footer_Courses{
+    background-color: chocolate;
+}
+.footer_Teachers{
+    background-color: cornflowerblue;
+}
+.footer_Information{
+    background-color: darkred;
+}
+.footer_En{
+    background-color: darkgreen;
+}
